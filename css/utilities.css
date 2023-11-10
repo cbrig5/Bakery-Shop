@@ -1,187 +1,170 @@
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 20px;
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 20px;
 }
-
 
 /*Backgrounds */
 .bg-primary {
-    background-color: var(--primary-color);
-    color: #fff;
+	background-color: var(--primary-color);
+	color: #fff;
 }
 
-
-.bg-secondary{
-    background-color: var(--light-color);
-    color: #fff;
+.bg-secondary {
+	background-color: var(--light-color);
+	color: #fff;
 }
 
 .bg-light {
-    background-color: var(--light-color);
-    color: #333;
+	background-color: var(--light-color);
+	color: #333;
 }
 
 .bg-dark {
-    background-color: var(--dark-color);
-    color: #fff;
+	background-color: var(--dark-color);
+	color: #fff;
 }
 
 /*grabbing all the a links from buttons (in dark areas) made a few just in case for the future*/
 .bg-primary a,
 .bg-secondary a,
 .bg-dark a {
-    color: #cd7a95
+	color: black;
 }
 
 /*Text sizes and adjustments*/
 .lead {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 .sm {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .mdsm {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .md {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .lg {
-    font-size: 3rem;
+	font-size: 3rem;
 }
 
 .xl {
-    font-size: 4rem;
+	font-size: 4rem;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 /*Flexes*/
 .flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 
 /*Grids*/
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /*repeat(2,1fr); = 1fr 1fr;*/
-    gap: 20px;
-    /*gap is used for padding inbetween grid elements*/
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/*repeat(2,1fr); = 1fr 1fr;*/
+	gap: 20px;
+	/*gap is used for padding inbetween grid elements*/
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 .grid-3 {
-    grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 /* Margin*/
 .my-1 {
-    margin: 1rem 0;
-
+	margin: 1rem 0;
 }
 
 .my-2 {
-    margin: 1.5rem 0;
-
+	margin: 1.5rem 0;
 }
 
 .my-3 {
-    margin: 2rem 0;
-
+	margin: 2rem 0;
 }
 
 .my-4 {
-    margin: 3rem 0;
-
+	margin: 3rem 0;
 }
 
 .my-5 {
-    margin: 4rem 0;
+	margin: 4rem 0;
 }
 
 .m-1 {
-    margin: 1rem;
+	margin: 1rem;
 }
 
 .m-2 {
-    margin: 1.5rem;
-
+	margin: 1.5rem;
 }
 
 .m-3 {
-    margin: 2rem;
-
+	margin: 2rem;
 }
 
 .m-4 {
-    margin: 3rem;
-
+	margin: 3rem;
 }
 
 .m-5 {
-    margin: 4rem;
+	margin: 4rem;
 }
 
 /*Padding*/
 
 .py-1 {
-    padding: 1rem 0;
-
+	padding: 1rem 0;
 }
 
 .py-2 {
-    padding: 1.5rem 0;
-
+	padding: 1.5rem 0;
 }
 
 .py-3 {
-    padding: 2rem 0;
-
+	padding: 2rem 0;
 }
 
 .py-4 {
-    padding: 3rem 0;
-
+	padding: 3rem 0;
 }
 
 .py-5 {
-    padding: 4rem 0;
+	padding: 4rem 0;
 }
 
 .p-1 {
-    padding: 1rem;
-
+	padding: 1rem;
 }
 
 .p-2 {
-    padding: 1.5rem;
-
+	padding: 1.5rem;
 }
 
 .p-3 {
-    padding: 2rem;
-
+	padding: 2rem;
 }
 
 .p-4 {
-    padding: 3rem;
-
+	padding: 3rem;
 }
 
 .p-5 {
-    padding: 4rem;
+	padding: 4rem;
 }
