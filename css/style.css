@@ -64,33 +64,36 @@ img {
 
 
 /*Showcase*/
-.showcase>div {
+.showcase-ctn {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.bakery-title {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.showcase {
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    padding: 60px;
+    flex-direction: column;
 }
 
 .showcase img {
-    display: flex;
-    justify-content: center;
+    max-height: 75vh;
+    max-width: 100vh;
+    border-radius: 10px;
 }
+
 .slogan {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-weight: 500;
+    align-items: center
+    ;
 }
 
-.slogan h2 {
-    font-size: 2.5rem;
-    color: var(--dark-color);
-    text-align: center;
-    margin: 0 0 1rem 0;
-
-}
 /* Footer */
 .footer {
     max-height: 260px;
