@@ -1,17 +1,18 @@
 .header-container {
-    background-color:#e0a3b6;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+	background-color: #e0a3b6;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 .header-container h1 {
-    margin: 0;
+	margin: 0;
 }
 
 .main-section {
-    text-align: center;
-    line-height: 1.6;
-    padding:10px 75px 0px 75px;
-    
+	text-align: center;
+	line-height: 1.6;
+	padding: 10px 95px 0px 95px;
+	font-weight: bold;
+	font-size: large;
 }
