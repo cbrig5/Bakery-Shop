@@ -23,14 +23,17 @@
 
 .bg-dark {
 	background-color: var(--dark-color);
-	color: #fff;
+	color: var(--primary-color);
 }
 
 /*grabbing all the a links from buttons (in dark areas) made a few just in case for the future*/
 .bg-primary a,
-.bg-secondary a,
-.bg-dark a {
+.bg-secondary a {
 	color: black;
+}
+
+.bg-dark a {
+	color: var(--primary-color);
 }
 
 /*Text sizes and adjustments*/
