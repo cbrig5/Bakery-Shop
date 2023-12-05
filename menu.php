@@ -42,6 +42,7 @@ if (!$result) {
             <li><a href="#top">Menu</a></li>
             <li><a href="#">Location & Hours</a></li>
             <li><a href="about.html">About Us</a></li>
+            <li><a href="viewCart.php">Cart</a></li>
           </ul>
         </nav>
 
@@ -75,16 +76,22 @@ if (!$result) {
           <?php
           // Loop through fetched menu items and generate HTML
           while ($row = mysqli_fetch_assoc($result)) {
-              echo '<div class="menu-item">';
-              echo '<div class="menu-item-text">';
-              echo '<h3 class="menu-item-heading">';
-              echo '<span class="menu-item-name">' . $row["name"] . '</span>';
-              echo '<span class="menu-item-price">$' . $row["cost"] . '</span>';
-              echo '</h3>';
-              echo '<p class="menu-item-description">' . $row["description"] . '</p>';
-              echo '</div>';
-              echo '</div>';
-          }
+            echo '<div class="menu-item">';
+            echo '<div class="menu-item-text">';
+            echo '<h3 class="menu-item-heading">';
+            echo '<span class="menu-item-name">' . $row["name"] . '</span>';
+            echo '<span class="menu-item-price">$' . $row["cost"] . '</span>';
+            echo '</h3>';
+            echo '<p class="menu-item-description">' . $row["description"] . '</p>';
+            echo '</div>';
+            // Add a form with a button to add items to the cart
+            echo '<form action="addToCart.php" method="post">';
+            echo '<input type="hidden" name="menu_id" value="' . $row["id"] . '">';
+            echo '<input type="submit" value="Add to Cart" class="addToCart">';
+            echo '</form>';
+            echo '</div>';
+                        
+        }
 
           // Free the result set
           mysqli_free_result($result);

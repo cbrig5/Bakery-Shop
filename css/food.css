@@ -1,31 +1,29 @@
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #cd7a95;
+}
 
-  
-  .menu {
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-    color: #cd7a95;
-  }
-  
-  .menu-group-heading {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ccc;
-  }
-  
-  .menu-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-    padding: 1.5em 0;
-  }
-  
-  .menu-item {
-    display: flex;
-  }
-  
-  /*
+.menu-group-heading {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+/*
   this can be used to add an image  to each dish
   .menu-item-image {
     width: 80px;
@@ -35,37 +33,52 @@
     margin-right: 1.5em;
   }
   */
-  .menu-item-text {
-    flex-grow: 1;
-  }
-  
-  .menu-item-heading {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-  }
-  
-  .menu-item-name {
-    margin-right: 1.5em;
-  }
-  
-  .menu-item-description {
-    line-height: 1.6;
-  }
-  
-  @media screen and (min-width: 992px) {
-    .menu {
-      font-size: 16px;
-    }
 
-  
-    .menu-group {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .menu-item-image {
-      width: 125px;
-      height: 125px;
-    }
+/* Add to Cart button styling */
+.addToCart {
+  background-color: white ; /* Green background color */
+  color: black; /* White text color */
+  padding: 10px 15px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-color: black;
+  border-radius: 5px; /* Add a slight border radius for a rounded appearance */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.addToCart:hover {
+  background-color: blue; /* Darker green on hover */
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
   }
-  
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-image {
+    width: 125px;
+    height: 125px;
+  }
+}
