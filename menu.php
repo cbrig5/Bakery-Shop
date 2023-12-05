@@ -60,6 +60,8 @@ if (!$result) {
                   <li><a href="menu.html">Menu</a></li>
                   <li><a href="#">Location & Hours</a></li>
                   <li><a href="about.html">About Us</a></li>
+                  <li><a href="viewCart.php">Cart</a></li>
+
                 </ul>
               </div>
             </div>

@@ -52,6 +52,11 @@
             color: #777;
             margin-top: 20px;
         }
+
+        .cart-buttons {
+            display: flex;
+            gap: 10px;
+        }
     </style>
     <title>Your Page Title</title>
 </head>
@@ -82,9 +87,17 @@ if (isset($_SESSION['cart'])) {
         }
 
         // Add a button to empty the cart
+        echo '<div class="cart-buttons">';
+
         echo '<form action="emptyCart.php" method="post">';
         echo '<input type="submit" value="Empty Cart">';
         echo '</form>';
+
+        echo '<form action="" method="post">';
+        echo '<input type="submit" value="Pay Now">';
+        echo '</form>';
+        echo '</div>';
+
 
         // Free the result set
         mysqli_free_result($result);

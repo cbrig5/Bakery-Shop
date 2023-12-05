@@ -5,6 +5,6 @@ session_start();
 unset($_SESSION['cart']);
 
 // Redirect back to the cart display page or any other page
-header("Location: viewCart.php"); // Change to the appropriate page
+header("Location: menu.php"); // Change to the appropriate page
 exit();
 ?>
