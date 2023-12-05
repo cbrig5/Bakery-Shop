@@ -72,7 +72,7 @@
   padding-right: 8px; /* Increase the padding for additional spacing */
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .menu {
     font-size: 16px;
   }
