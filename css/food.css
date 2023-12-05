@@ -1,7 +1,7 @@
 .menu {
   font-family: "Inter", sans-serif;
   font-size: 14px;
-  color: #cd7a95;
+  color: black;
 }
 
 .menu-group-heading {
@@ -36,18 +36,18 @@
 
 /* Add to Cart button styling */
 .addToCart {
-  background-color: white ; /* Green background color */
-  color: black; /* White text color */
-  padding: 10px 15px; /* Padding for the button */
-  border: none; /* Remove border */
-  border-color: black;
-  border-radius: 5px; /* Add a slight border radius for a rounded appearance */
-  cursor: pointer; /* Change cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition for background color */
+  margin-left: 8px;
+  background-color: #F5F5DC; /* Beige */
+  color: #2E2E2E; /* Dark Gray text */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .addToCart:hover {
-  background-color: blue; /* Darker green on hover */
+  background-color: #D2B48C; /* Dark Khaki on hover */
 }
 
 .menu-item-text {
@@ -66,6 +66,10 @@
 
 .menu-item-description {
   line-height: 1.6;
+}
+
+.menu-item-price {
+  padding-right: 8px; /* Increase the padding for additional spacing */
 }
 
 @media screen and (min-width: 992px) {

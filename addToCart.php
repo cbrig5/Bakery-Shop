@@ -16,6 +16,6 @@ if(isset($_POST['menu_id'])) {
 }
 
 // Redirect back to the index page
-header('Location: index.html');
+header('Location: viewCart.php');
 exit();
 ?>

@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        
+
+        div {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: #777;
+            margin-top: 5px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .empty-cart-message {
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Your Page Title</title>
+</head>
+<body>
 <?php
 session_start();
 
@@ -40,3 +98,5 @@ if (isset($_SESSION['cart'])) {
 // Close the database connection
 mysqli_close($dbc);
 ?>
+</body>
+</html>
