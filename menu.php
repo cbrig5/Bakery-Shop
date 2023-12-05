@@ -57,7 +57,7 @@ if (!$result) {
               <div>
                 <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="menu.php">Menu</a></li>
                   <li><a href="#">Location & Hours</a></li>
                   <li><a href="about.html">About Us</a></li>
                 </ul>
